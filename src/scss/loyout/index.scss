@@ -2,7 +2,13 @@ header{
   background: $main-color;
   color: white;
 }
-
+main{
+  flex: 1;
+}
 footer{
-
+  background: $text-color;
+  color: white;
+}
+section:not(:last-child){
+  margin-bottom: 130px;
 }

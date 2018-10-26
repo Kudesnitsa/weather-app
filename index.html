@@ -5,7 +5,7 @@
     <title>Fun Weather</title>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
     <link href="./node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
-    <link href="./node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
+    <link href="./node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet" type="text/css">
     <link href="./src/css/index.css" rel="stylesheet">
 </head>
 <body>
@@ -65,58 +65,254 @@
                         <img src="./src/img/phone.png" class="phone" alt="weather app on phone"
                              title="weather app on phone">
                     </div>
-                    <div class="col-12 arrow-down">
-                        <i class="fas fa-angle-down"></i>
+                </div>
+            </div>
+            <div class="col-12 arrow-down">
+                <i class="fas fa-angle-down"></i>
+            </div>
+        </div>
+    </section>
+    <section class="features container">
+        <div class="wrap-title">
+            <h2 class=" h2 title">
+                Perfect Features
+            </h2>
+            <div class=" sub-title">
+                Only necessary
+            </div>
+        </div>
+        <div class="row cards-box">
+            <div class="col-sm-12 col-md-4 feature">
+                <div class="icon-box"><img src="./src/img/icon.png" alt="" title=""></div>
+                <div class="info-box">
+                    <div class="title-box">Usability</div>
+                    <div class="text">Sometimes the simplest things are the hardest to find. So we created a new
+                        line for everyday life
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 feature">
+                <div class="icon-box"><img src="./src/img/layers.png" alt="" title=""></div>
+                <div class="info-box">
+                    <div class="title-box">Parallax Effect</div>
+                    <div class="text">Sometimes the simplest things are the hardest to find. So we created a new
+                        line for everyday life
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 feature">
+                <div class="icon-box"><img src="./src/img/slide.png" alt="" title=""></div>
+                <div class="info-box">
+                    <div class="title-box">Unlimites Colors</div>
+                    <div class="text">Sometimes the simplest things are the hardest to find. So we created a new
+                        line for everyday life
                     </div>
                 </div>
             </div>
         </div>
-
     </section>
-    <section class="features">
+    <section class="slider">
+        <div class="wrap-title">
+            <h2 class=" h2 title">
+                Simple widgets
+            </h2>
+            <div class=" sub-title">
+                Drag and Drop
+            </div>
+        </div>
+        <div class="container" id="container">
+            <ul>
+                <li>
+                    <img src="./src/img/slider1.png" alt="img"/>
+                </li>
+                <li>
+                    <img src="./src/img/slider2.png" alt="img"/>
+                </li>
+                <li>
+                    <img src="./src/img/slider3.png" alt="img"/>
+                </li>
+                <div class="left"><i class="fas fa-angle-left"></i></div>
+                <div class="right"><i class="fas fa-angle-right"></i></div>
+            </ul>
+        </div>
+    </section>
+    <section class="screenshots">
+        <div class="wrap-title">
+            <h2 class=" h2 title">
+                Screenshots
+            </h2>
+            <div class=" sub-title">
+                The brightest images
+            </div>
+        </div>
+        <div class="screenshots-box container">
+            <div class="screenshots-item <!--reverse--> row">
+                <div class="col-md-6 photo"><img src="./src/img/sc1.png"></div>
+                <div class="col-md-6 info">
+                    <div class="icon"><img src="./src/img/cool.png"></div>
+                    <div class="title">When the clouds</div>
+                    <div class="text">Variable information on the air humidity, the feeling of the weather, and the
+                        ability to share this with your friends
+                    </div>
+                    <div class="wrap-weathers">
+                        <span class="weather wet">95</span>
+                        <span class="weather temp">9</span>
+                        <span class="weather state">Rainy</span>
+                    </div>
+                </div>
+            </div>
+            <div class="screenshots-item reverse row">
+                <div class="col-md-6 photo"><img src="./src/img/sc2.png"></div>
+                <div class="col-md-6 info">
+                    <div class="icon"><img src="./src/img/sun.png"></div>
+                    <div class="title">When the sun</div>
+                    <div class="text">Sometimes the simplest things are the hardest to find. So we created a new line
+                        for everyday life. Sometimes the simplest things are the hardest to find. So we created a new
+                        line for everyday life. Sometimes the simplest things are the hardest to find. So we created a
+                        new line for everyday life. Sometimes the simplest things are the hardest to find. So we created
+                        a new line for everyday life
+                    </div>
+                    <div class="wrap-weathers">
+                        <span class="weather wet">95</span>
+                        <span class="weather temp">9</span>
+                        <span class="weather state">Rainy</span>
+                    </div>
+                </div>
+            </div>
+            <div class="screenshots-item <!--reverse--> row">
+                <div class="col-md-6 photo"><img src="./src/img/sc3.png"></div>
+                <div class="col-md-6 info">
+                    <div class="icon"><img src="./src/img/rainy.png"></div>
+                    <div class="title">When the rain</div>
+                    <div class="text">Sometimes the simplest things are the hardest to find. So we created a new line
+                        for everyday life. Sometimes the simplest things are the hardest to find. So we created a new
+                        line for everyday life. Sometimes the simplest things are the hardest to find. So we created a
+                        new line for everyday life. Sometimes the simplest things are the hardest to find. So we created
+                        a new line for everyday life
+                    </div>
+                    <div class="wrap-weathers">
+                        <span class="weather wet">95</span>
+                        <span class="weather temp">9</span>
+                        <span class="weather state">Rainy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews container ">
+        <div class="wrap-title">
+            <h2 class=" h2 title">
+                What people are saying
+            </h2>
+            <div class=" sub-title">
+                Reviews
+            </div>
+        </div>
+        <div class="row reviews-box">
+            <div class="review col-md-6">
+                <div class="text">
+                    What art offers is space - a certain breathing room for the spirit.
+                </div>
+                <div class="author">
+                    John Updike
+                </div>
+            </div>
+            <div class="review col-md-6">
+                <div class="text">
+                    We do not see nature with our eyes, but with our understandings and our hearts.
+                </div>
+                <div class="author">
+                    William Hazlitt
+                </div>
+            </div>
+            <div class="review col-md-6">
+                <div class="text">
+                    The only courage that matters is the kind that gets you from one moment to the next.
+                </div>
+                <div class="author">
+                    Mignon McLaughlin
+                </div>
+            </div>
+            <div class="review col-md-6">
+                <div class="text">
+                    No man has a good enough memory to be a successful liar.
+                </div>
+                <div class="author">
+                    Abraham Lincoln
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="download">
         <div class="container">
-                <h2 class=" h2 title">
-                    Perfect Features
-                </h2>
-                <div class=" sub-title">
-                    Only necessary
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="info">
+                        <div class="title">
+                            How Download the app?
+                        </div>
+                        <div class="text">
+                            Just download the app from the store.
+                            Simple, nice and user-friendly application of theweather. Only relevant and useful
+                            information.
+                        </div>
+                        <div class="links-down">
+                            <a class="link-item app-store" href="" target="_blank">
+                                <img src="./src/img/appstore.png">
+                            </a>
+                            <a class="link-item play-market" href="" target="_blank">
+                                <img src="./src/img/play-market.png">
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="row cards-box">
-                    <div class="col-md-4">
-                        <div class="icom-box"><img src="./src/img/icon.png" alt="" title=""></div>
-                        <div class="info-box">
-                            <div class="title-box">Usability </div>
-                            <div class="text">Sometimes the simplest things are the hardest to find. So we created a new line for everyday life</div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="icom-box"> <img src="./src/img/layers.png" alt="" title=""></div>
-                        <div class="info-box">
-                            <div class="title-box">Parallax Effect</div>
-                            <div class="text">Sometimes the simplest things are the hardest to find. So we created a new line for everyday life</div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="icom-box"><img src="./src/img/slide.png" alt="" title=""></div>
-                        <div class="info-box">
-                            <div class="title-box">Unlimites Colors</div>
-                            <div class="text">Sometimes the simplest things are the hardest to find. So we created a new line for everyday life</div>
-                        </div>
-                    </div>
+                <div class="phone col-md-6">
+                    <img src="./src/img/download.png">
                 </div>
             </div>
         </div>
 
-
     </section>
-
 </main>
 <footer>
+    <div class="container">
+        <div class="row">
+            <nav class="col-12 navbar navbar-expand-lg ">
+                <a class="navbar-brand logo" href="/">
+                    <span>Fun</span> Weather.
+                </a>
 
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Download</a>
+                    </li>
+                </ul>
+                <div class="social-networks my-2 my-lg-0">
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"> <i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+
+            </nav>
+            <div class="col-12 dev-box">
+                © 2016 All rights reserved. Weather App Theme by <a href="">Gravpix</a>
+            </div>
+        </div>
+    </div>
 </footer>
 
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<script src="./src/js/Carousel.js"></script>
 <script src="./src/js/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,12 @@
+@media (max-width: 540px){
+.slider {
+  .left {
+    left: 0 !important;
+  }
+  .right {
+    font-size: 50px;
+    color: $sub-element;
+    right: 0 !important;
+  }
+}
+}
