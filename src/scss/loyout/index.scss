@@ -8,6 +8,7 @@ main{
 footer{
   background: $text-color;
   color: white;
+  overflow: hidden;
 }
 section:not(:last-child){
   margin-bottom: 130px;
